@@ -14,4 +14,4 @@ RUN docker-php-ext-install pcntl
 EXPOSE 8080
 
 # Start the bot when container starts
-CMD ["php", "bot.php"]
+CMD ["php", "-S", "0.0.0.0:10000", "bot.php"]
