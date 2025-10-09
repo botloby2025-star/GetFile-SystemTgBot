@@ -14,4 +14,4 @@ WORKDIR /var/www/html/
 RUN echo "display_errors=On" >> /usr/local/etc/php/php.ini-development
 
 # Start Apache server
-CMD ["apache2-foreground"]
+CMD ["php", "bot.php"]
