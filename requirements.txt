@@ -1,1 +1,17 @@
-aiogram==3.3.0
+# Core dependencies
+requests
+aiohttp
+python-telegram-bot==20.3
+
+# Environment and async utilities
+python-dotenv
+aiofiles
+
+# Build helpers (important for Render)
+setuptools>=70.0
+wheel
+pip>=24.0
+
+# Optional but useful for file-related tasks
+tqdm
+
