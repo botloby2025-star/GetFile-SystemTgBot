@@ -1,9 +1,4 @@
 
-requests
-aiohttp
-python-telegram-bot==20.3
-aiofiles
-setuptools>=70.0
-wheel
-pip>=24.0
-tqdm
+# Telegram Bot Dependencies
+aiogram==3.4.1
+
