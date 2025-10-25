@@ -1,4 +1,16 @@
 
-# Telegram Bot Dependencies
+# Telegram Bot
 aiogram==3.4.1
+
+# Networking
+requests
+aiohttp==3.9.5
+aiofiles
+tqdm
+
+# Build helpers (important!)
+pip>=24.0
+setuptools>=70.0
+wheel
+
 
