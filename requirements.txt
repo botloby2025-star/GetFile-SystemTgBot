@@ -1,8 +1,9 @@
 aiogram==3.4.1
 requests
 aiohttp
+python-telegram-bot==20.3
 aiofiles
-tqdm
 setuptools>=70.0
 wheel
 pip>=24.0
+tqdm
