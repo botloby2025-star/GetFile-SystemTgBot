@@ -1,14 +1,8 @@
-# Telegram Bot Dependencies
 aiogram==3.4.1
-
-# Core dependencies
 requests
 aiohttp
-python-dotenv
 aiofiles
 tqdm
-
-# Build helpers
 setuptools>=70.0
 wheel
 pip>=24.0
